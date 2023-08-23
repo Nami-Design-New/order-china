@@ -110,6 +110,11 @@
      object-fit: contain;
 }
 
+@media only screen and (max-width: 991px) {
+  .header-brand a img {
+    max-height: unset;
+  }
+}
 .axil-product-list .thumbnail img {
   -o-object-fit: contain;
      object-fit: contain;
@@ -187,7 +192,7 @@
 }
 
 .track {
-  padding: 80px 0;
+  padding: 80px 12px;
 }
 
 .order-tracking {
@@ -303,4 +308,18 @@
   .steps {
     padding: 0 24px;
   }
+}
+
+.mainmenu > li > a {
+  height: auto !important;
+  line-height: normal !important;
+}
+
+.header-style-5 .axil-mainmenu {
+  padding: 15px 0;
+}
+
+.mainmenu > li > a::before,
+.axil-mainmenu.axil-sticky .mainmenu > li > a::before {
+  bottom: -8px;
 }/*# sourceMappingURL=custom.css.map */
